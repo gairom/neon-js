@@ -22,8 +22,8 @@ export const CONTRACTS = {
 }
 
 export const DEFAULT_RPC = {
-  MAIN: 'https://seed1.neo.org:10331',
-  TEST: 'https://seed1.neo.org:20331'
+  MAIN: 'http://seed1.bitherium.co:20021',
+  TEST: 'http://seed1.bitherium.co:20021'
 }
 
 export const DEFAULT_REQ = { jsonrpc: '2.0', method: 'getblockcount', params: [], id: 1234 }
@@ -36,10 +36,10 @@ export const DEFAULT_SCRYPT = {
 }
 
 export const DEFAULT_SYSFEE = {
-  enrollmentTransaction: 1000,
-  issueTransaction: 500,
-  publishTransaction: 500,
-  registerTransaction: 10000
+  enrollmentTransaction: 0,
+  issueTransaction: 0,
+  publishTransaction: 0,
+  registerTransaction: 0
 }
 
 export const DEFAULT_WALLET = {
