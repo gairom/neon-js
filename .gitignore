@@ -16,3 +16,6 @@ build
 
 # IDE specific
 /.vscode
+.idea
+test.js
+testWallet4.json
